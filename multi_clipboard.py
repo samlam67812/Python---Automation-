@@ -3,7 +3,9 @@ import clipboard
 import sys
 
 SAVED_DATA = 'clipboard.json'
-
+'''this program allow you to have multi-clipbaord by creating json file and dictionary to store data. 
+with the key you entered, you can access to your data stored"
+'''
 
 def save_data(filepath, data):
     '''file path: json file '''
@@ -12,7 +14,7 @@ def save_data(filepath, data):
 
 
 def load_data(filepath):
-    '''laod a json file '''
+    '''load a json file '''
     try :
         with open(filepath, 'r') as f:
             data = json.load(f)
