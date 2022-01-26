@@ -1,5 +1,8 @@
 import requests
 
+'''By typing the city name, you will get the latest weather information
+'''
+
 API_KEY = '2366a9a78c487f57a277ae2b0d401128'
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
