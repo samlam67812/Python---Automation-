@@ -1,7 +1,10 @@
 import shelve
 import pyperclip
 import sys
+''' another multi_clipboard
+but this time allow only save and list function
 
+'''
 mcbShelf = shelve.open('mcb')
 if len(sys.argv) == 3 and sys.argv[1].lower() == 'save':
     mcbShelf[sys.argv[2]] = pyperclip.paste()
